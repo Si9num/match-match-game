@@ -1,0 +1,112 @@
+.rules {
+  position: relative;
+  width: 360px;
+  height: 230px;
+  background-color: #fcfcfc;
+  margin-left: 30px;
+  margin-top: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.first-rule {
+  display: flex;
+}
+.second-rule {
+  display: flex;
+  margin-top: 20px;
+  height: 132px;
+}
+.third-rule {
+  display: flex;
+  margin-top: 20px;
+  height: 240px;
+}
+.text {
+  position: absolute;
+  width: 272px;
+  height: 40px;
+  left: 50px;
+  top: 30px;
+}
+.num {
+  position: absolute;
+  top: 30px;
+  width: 50px;
+  height: 50px;
+  background-image: url('../assets/circle.png');
+  background-size: contain;
+}
+.num-txt {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #fcfcfc;
+  position: absolute;
+  left: 18px;
+  top: 10px;
+}
+.example {
+  width: 330px;
+  height: 240px;
+}
+.example-first {
+  background-image: url('../assets/image\ 1.png');
+  background-size: contain;
+  margin-left: 220px;
+  margin-top: 50px;
+}
+.ex-btn {
+  margin-left: 790px;
+  width: 116px;
+
+  height: 73px;
+  background-image: url('../assets/inactive.png');
+  background-size: contain;
+}
+.example-third {
+  background-image: url('../assets/image\ 4.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 220px;
+  margin-top: 50px;
+}
+.main h3 {
+  position: absolute;
+  top: 10px;
+  margin-left: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+form {
+  margin-top: 40px;
+}
+.modal p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.4px;
+  color: rgba(201, 15, 15, 0.651);
+  visibility: var(--visibl1);
+}
+.txt-container {
+  margin-top: 10px;
+}

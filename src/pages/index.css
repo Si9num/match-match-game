@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: o;
+}
+.header {
+  margin: 0 auto;
+  width: 100%;
+  height: 64px;
+  background-color: #2196f3;
+  margin-bottom: 50px;
+}
+
+.logo {
+  position: relative;
+  display: flex;
+  top: 10px;
+  width: 96px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  margin-right: 50px;
+  cursor: default;
+}
+.logo li {
+  display: inline-block;
+}
+.logo-col1 {
+  color: #f0f0f0;
+}
+.logo-col2 {
+  color: #2196f3;
+  background-color: #f0f0f0;
+}
+.nav ul {
+  display: inline-block;
+  margin-top: -40px;
+  margin-left: 100px;
+}
+.nav li {
+  width: 96px;
+  height: 64px;
+  display: inline-block;
+  margin-right: 50px;
+}
+:root {
+  --aboutImg: url('../pages/assets/unactive_about.png');
+  --bestImg: url('../pages/assets/inactive2.png');
+  --setImg: url('../pages/assets/inactive.png');
+}
+.about-img {
+  background-image: var(--aboutImg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.best-img {
+  background-image: var(--bestImg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.setting-img {
+  background-image: var(--setImg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+:root {
+  --visibl-playBtn: hidden;
+  --visibl-regBtn: visible;
+}
+.play-btn {
+  position: absolute;
+  width: 189px;
+  height: 64px;
+  background-image: url('./assets/start_game.png');
+  background-size: cover;
+  left: 1600px;
+  visibility: var(--visibl-playBtn);
+  cursor: pointer;
+}
+.stop-btn {
+  position: absolute;
+  width: 189px;
+  height: 64px;
+  background-image: url('./assets/stop_game.png');
+  background-size: cover;
+  left: 1600px;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.nav .reg-btn {
+  position: fixed;
+  width: 217px;
+  height: 64px;
+  background-image: url('../pages/assets/playbtn.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 1050px;
+  margin-top: 8px;
+  cursor: pointer;
+  visibility: var(--visibl-regBtn);
+}
+.main {
+  position: relative;
+  width: 1000px;
+  height: 802px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+:root {
+  --visibl: hidden;
+  --visibl1: hidden;
+}
+.modal-wrap {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.51);
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  visibility: var(--visibl);
+  z-index: 999;
+}
+.modal {
+  position: relative;
+  display: flex;
+  width: 639px;
+  height: 460px;
+  background-color: #fcfcfc;
+}
+.modal-align form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.modal-align h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-left: 20px;
+}
+.modal-sub {
+  outline: none;
+  width: 328px;
+  height: 56px;
+  background-color: #f0f0f0;
+  border-color: transparent;
+  margin-top: 20px;
+}
+
+.btn {
+  position: absolute;
+  width: 108px;
+  height: 36px;
+  outline: none;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2196f3;
+  top: 310px;
+  left: 380px;
+  cursor: pointer;
+}
+.btn-cancel {
+  position: absolute;
+  top: 380px;
+  left: 520px;
+  background-color: #e3f2fd;
+  color: #2196f3;
+}
+.btn:hover {
+  transition: 0.2s;
+  background-color: #036cc2;
+}
+.btn:active {
+  transition: 0.2s;
+  background-color: #e3f2fd;
+  color: #036cc2;
+}
+.btn-cancel:hover {
+  background-color: #bee0f8;
+}
+.btn:active {
+  transition: 0.2s;
+  background-color: #e3f2fd;
+  color: #036cc2;
+}
+.avatar {
+  position: absolute;
+  left: 400px;
+  top: 70px;
+  width: 198px;
+  height: 198px;
+  background-image: url('../pages/assets/Ellipse\ 5.png');
+  background-size: contain;
+}
+form {
+  margin-top: 40px;
+}
+.modal p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.4px;
+  color: rgba(201, 15, 15, 0.651);
+  visibility: var(--visibl1);
+}
+.txt-container {
+  margin-top: 10px;
+}

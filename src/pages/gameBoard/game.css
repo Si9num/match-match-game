@@ -1,0 +1,287 @@
+.row {
+  display: flex;
+  width: 817px;
+  height: 168px;
+  margin-bottom: 50px;
+  margin-left: 110px;
+  vertical-align: middle;
+}
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 168px;
+  height: 168px;
+  margin-right: 40px;
+  margin-top: 100px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: all 0.2s;
+}
+.card-success {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  width: 168px;
+  height: 168px;
+  margin-right: 40px;
+  background-color: rgba(38, 231, 38, 0.308);
+  visibility: hidden;
+  z-index: 99999;
+}
+.card-fail {
+  display: flex;
+
+  flex-direction: column;
+  width: 168px;
+  height: 168px;
+  margin-right: 40px;
+  background-color: rgba(236, 12, 12, 0.308);
+  visibility: hidden;
+  z-index: 100;
+}
+
+.card-success {
+  transform: rotateY(180deg);
+}
+.card-fail {
+  transform: rotateY(180deg);
+}
+.plug {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  z-index: 999;
+}
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+}
+.card-front {
+  transform: rotateY(180deg);
+}
+.card-back {
+  background-image: url('../assets/card/back/back.png');
+}
+.card-front1 {
+  background-image: var(--img1);
+}
+.card-front2 {
+  background-image: var(--img2);
+}
+.card-front3 {
+  background-image: var(--img3);
+}
+.card-front4 {
+  background-image: var(--img4);
+}
+.card-front5 {
+  background-image: var(--img5);
+}
+.card-front6 {
+  background-image: var(--img6);
+}
+.card-front7 {
+  background-image: var(--img7);
+}
+.card-front8 {
+  background-image: var(--img8);
+}
+.card-front9 {
+  background-image: var(--img9);
+}
+.card-front10 {
+  background-image: var(--img10);
+}
+.card-front11 {
+  background-image: var(--img11);
+}
+.card-front12 {
+  background-image: var(--img12);
+}
+.card-front13 {
+  background-image: var(--img13);
+}
+.card-front14 {
+  background-image: var(--img14);
+}
+.card-front15 {
+  background-image: var(--img15);
+}
+.card-front16 {
+  background-image: var(--img16);
+}
+.card-front17 {
+  background-image: var(--img17);
+}
+.card-front18 {
+  background-image: var(--img18);
+}
+.card-front19 {
+  background-image: var(--img19);
+}
+.card-front20 {
+  background-image: var(--img20);
+}
+.card-front21 {
+  background-image: var(--img21);
+}
+.card-front22 {
+  background-image: var(--img22);
+}
+.card-front23 {
+  background-image: var(--img23);
+}
+.card-front24 {
+  background-image: var(--img24);
+}
+.card-front25 {
+  background-image: var(--img25);
+}
+.card-front26 {
+  background-image: var(--img26);
+}
+.card-front27 {
+  background-image: var(--img27);
+}
+.card-front28 {
+  background-image: var(--img28);
+}
+.card-front29 {
+  background-image: var(--img29);
+}
+.card-front30 {
+  background-image: var(--img30);
+}
+.card-front31 {
+  background-image: var(--img31);
+}
+.card-front32 {
+  background-image: var(--img32);
+}
+.card-front33 {
+  background-image: var(--img33);
+}
+.card-front34 {
+  background-image: var(--img34);
+}
+.card-front35 {
+  background-image: var(--img35);
+}
+.card-front36 {
+  background-image: var(--img36);
+}
+:root {
+  --test: green;
+  --img1: url('../assets/card/front/6.png');
+  --img2: url('../assets/card/front/6.png');
+  --img3: url('../assets/card/front/6.png');
+  --img4: url('../assets/card/front/6.png');
+  --img5: url('../assets/card/front/6.png');
+  --img6: url('../assets/card/front/6.png');
+  --img7: url('../assets/card/front/6.png');
+  --img8: url('../assets/card/front/6.png');
+  --img9: url('../assets/card/front/6.png');
+  --img10: url('../assets/card/front/6.png');
+  --img11: url('../assets/card/front/6.png');
+  --img12: url('../assets/card/front/6.png');
+  --img13: url('../assets/card/front/6.png');
+  --img14: url('../assets/card/front/6.png');
+  --img15: url('../assets/card/front/6.png');
+  --img16: url('../assets/card/front/6.png');
+  --img17: url('../assets/card/front/6.png');
+  --img18: url('../assets/card/front/6.png');
+  --img19: url('../assets/card/front/6.png');
+  --img20: url('../assets/card/front/6.png');
+  --img21: url('../assets/card/front/6.png');
+  --img22: url('../assets/card/front/6.png');
+  --img23: url('../assets/card/front/6.png');
+  --img24: url('../assets/card/front/6.png');
+  --img25: url('../assets/card/front/6.png');
+  --img26: url('../assets/card/front/6.png');
+  --img27: url('../assets/card/front/6.png');
+  --img28: url('../assets/card/front/6.png');
+  --img29: url('../assets/card/front/6.png');
+  --img30: url('../assets/card/front/6.png');
+  --img31: url('../assets/card/front/6.png');
+  --img32: url('../assets/card/front/6.png');
+  --img33: url('../assets/card/front/6.png');
+  --img34: url('../assets/card/front/6.png');
+  --img35: url('../assets/card/front/6.png');
+  --img36: url('../assets/card/front/6.png');
+  --visibl3: hidden;
+}
+.main {
+  position: relative;
+}
+#timer {
+  position: absolute;
+  display: flex;
+  width: 256px;
+  height: 64px;
+  margin-left: 370px;
+  background-color: #fcfcfc;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+#time {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.congrats {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.51);
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  z-index: 999;
+}
+.congr-win {
+  position: relative;
+  display: flex;
+  width: 380px;
+  height: 112px;
+  border-radius: 5px;
+  background-color: #fcfcfc;
+  align-items: center;
+  justify-content: center;
+}
+.congr-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 5px;
+}
+.btn-ok {
+  margin: 0;
+  top: 70px;
+  left: 140px;
+  border-radius: 5px;
+}
